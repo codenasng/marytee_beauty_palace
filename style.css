@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8339f;
+    color: #333;
+}
+
+header {
+    background-color: #ff4081;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header .contact a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+header .contact a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    background-color: #ff4081;
+    padding: 15px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 40px 10%;
+    text-align: center;
+}
+
+#catalog {
+    background-color: #ffffff;
+    padding: 40px 10%;
+}
+
+#catalog h2 {
+    margin-bottom: 30px;
+    font-size: 2em;
+    color: #ff4081;
+}
+
+.product {
+    display: inline-block;
+    width: 200px;
+    margin: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    text-align: center;
+}
+
+.product:hover {
+    transform: translateY(-10px);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.product h3 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.product p {
+    font-size: 1.2em;
+    color: #ff4081;
+    font-weight: bold;
+}
+
+#cart {
+    background-color: #ffffff;
+    padding: 40px 10%;
+    margin-top: 40px;
+}
+
+#cart h2 {
+    font-size: 2em;
+    color: #ff4081;
+    margin-bottom: 20px;
+}
+
+#cart-items {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+#cart-items li {
+    background-color: #ff4081;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+button {
+    background-color: #ff4081;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #f83590;
+}
+
+footer {
+    background-color: #ff4081;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.1em;
+}
+/* Logo Banner */
+.logo-banner {
+    background-image: url('marytee_logo.png');
+    background-size: cover; /* Stretch to fit */
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 250px; /* You can increase for taller banners */
+    width: 100%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Pink CTA Block */
+.cta-block {
+    background-color: #ff69b4; /* Bright pink */
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.cta-button {
+    background-color: #fff;
+    color: #f7339b;
+    font-weight: bold;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #ffe4ec;
+    transform: translateY(-3px);
+}
+/* About Section */
+.about-section {
+    padding: 60px 10%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-text {
+    flex: 1 1 50%;
+}
+
+.about-text h2 {
+    font-size: 2rem;
+    color: #ff299b;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+.about-image {
+    flex: 1 1 40%;
+    text-align: center;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+/* Quality Section */
+.quality-section {
+    background-color: #ffe4ec;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.quality-section h2 {
+    font-size: 1.8rem;
+    color: #fa30a2;
+    margin-bottom: 15px;
+}
+
+.quality-section p {
+    font-size: 1.1rem;
+    color: #444;
+}

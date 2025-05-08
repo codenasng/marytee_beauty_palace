@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Authur" content="marytee beauty palace" />
+    <meta
+      name="discription"
+      content="this web page is all categories for sales of natural soap and skin care "
+    />
+    <title>MARYTEE BEAUTY PALACE</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="icon" href="marytee_logo.png" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- Logo Banner -->
+    <header class="logo-banner"></header>
+
+    <!-- CTA Block -->
+    <div class="cta-block">
+      <a href="tel:+2348135978910" class="cta-button">📞 Call Us</a>
+      <a href="mailto:support@marytee.com" class="cta-button">✉️ Email Us</a>
+    </div>
+
+    <section class="about-section">
+      <div class="about-content">
+        <div class="about-text">
+          <h2>About MARYTEE BEAUTY PALACE</h2>
+          <p>
+            At MARYTEE BEAUTY PALACE, we specialize in high-quality beauty
+            products that bring out the best in you. From skincare to cosmetics,
+            our catalog is carefully selected to ensure excellence, elegance,
+            and satisfaction.
+          </p>
+        </div>
+        <div class="about-image">
+          <img src="about.png" alt="About Us Image" />
+        </div>
+      </div>
+    </section>
+
+    <section class="quality-section">
+      <h2>Our Promise of Quality</h2>
+      <p>
+        We only sell trusted, original beauty products. 100% customer
+        satisfaction, authentic brands, and long-lasting value—guaranteed.
+      </p>
+    </section>
+
+    <nav>
+      <ul>
+        <li><a href="#catalog">Catalog</a></li>
+        <li><a href="#cart">Cart</a></li>
+      </ul>
+    </nav>
+    <section id="catalog">
+      <h2>Product Catalog</h2>
+      <!-- Product placeholders -->
+      <div class="product" onclick="addToCart('Whitening Soap',2500)">
+        <img src="product1.png" alt="Product 1" />
+        <h3>Whitening Face Soap</h3>
+        <p>₦2500</p>
+      </div>
+      <div
+        class="product"
+        onclick="addToCart('Vagina Medication', depending-on-issue)"
+      >
+        <img src="product2.png" alt="Product 2" />
+        <h3>Vagina Medication</h3>
+        <p>depending on the issue</p>
+      </div>
+      <div class="product" onclick="addToCart('Sweetness Candies', 4000)">
+        <img src="product4.png" alt="Product 4" />
+        <h3>Sweetness Candies</h3>
+        <p>₦4000</p>
+      </div>
+      <div class="product" onclick="addToCart('Sweetness Biscuits', 1000)">
+        <img src="product5.png" alt="Product 5" />
+        <h3>Sweetness Biscuits</h3>
+        <p>₦1000</p>
+      </div>
+      <div class="product" onclick="addToCart('Product 6', 35)">
+        <img src="product6.png" alt="Product 6" />
+        <h3>Product 6</h3>
+        <p>price per count</p>
+      </div>
+      <div class="product" onclick="addToCart('Acorbic', 5000)">
+        <img src="product9.png" alt="Product 9" />
+        <h3>Acorbic</h3>
+        <p>₦5000</p>
+      </div>
+      <div class="product" onclick="addToCart('Gluta White', 10000)">
+        <img src="product10.png" alt="Product 10" />
+        <h3>Gluta White</h3>
+        <p>₦10000</p>
+      </div>
+      <div class="product" onclick="addToCart('Gluta Berry', 10000)">
+        <img src="product11.png" alt="Product 11" />
+        <h3>Gluta Berry</h3>
+        <p>₦10000</p>
+      </div>
+      <div class="product" onclick="addToCart('Ntural Soap', 7000)">
+        <img src="product12.png" alt="Product 12" />
+        <h3>Ntural Soap</h3>
+        <p>₦7000</p>
+        b
+      </div>
+    </section>
+
+    <section id="cart">
+      <h2>Your Cart</h2>
+      <ul id="cart-items">
+        <!-- Cart items will appear here -->
+      </ul>
+      <button onclick="proceedToBuy()">Buy Now</button>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 MARYTEE BEAUTY PALACE</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
